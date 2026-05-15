@@ -1,0 +1,115 @@
+---
+layout: page
+title: Teaching
+show_title: true
+permalink: /teaching/
+---
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+  .course-entry {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-bottom: 2.5rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  .course-entry:last-child {
+    border-bottom: none;
+  }
+  .course-thumb {
+    flex: 0 0 auto;
+  }
+  .course-thumb img {
+    width: 300px;
+    border-radius: 6px;
+    object-fit: cover;
+  }
+  .course-info {
+    flex: 1;
+    min-width: 200px;
+  }
+  .course-info h3 {
+    margin-top: 0;
+    margin-bottom: 0.2rem;
+  }
+  .course-institution {
+    color: #777;
+    font-style: italic;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+  }
+  .course-thumb img {
+    transition: transform 600ms ease;
+    box-shadow: 1px 0 9px -1px #c5c5c5;
+  }
+  .course-thumb img:hover {
+    transform: translateY(-5px);
+  }
+</style>
+
+<p>
+  I teach studio and lecture courses at Virginia Tech and previously at Arizona State University.
+  I enjoy bringing my research into the classroom, introducing students to recent technological
+  breakthroughs in haptics, virtual reality, augmented reality, and mixed reality.
+</p>
+
+<br>
+
+<div style="margin-bottom: 1.5rem;">
+  <img src="{{ site.baseurl }}/images/logos/vt.jpg" alt="Virginia Tech" style="height: 60px; display: block;">
+</div>
+
+{% for course in site.data.teaching %}
+{% unless course.institution contains "Arizona State" %}
+<div class="course-entry">
+  {% if course.image and course.image.size > 0 %}
+  <div class="course-thumb">
+    <a href="{{ course.link | relative_url }}">
+      <img src="{{ course.image | relative_url }}" alt="{{ course.title }}">
+    </a>
+  </div>
+  {% endif %}
+  <div class="course-info">
+    <h3><a href="{{ course.link | relative_url }}" style="text-decoration:none; color:inherit;">{{ course.title }}</a></h3>
+    {% if course.subtitle %}
+      <p style="margin: 0 0 0.3rem; font-weight: 600;">{{ course.subtitle }}</p>
+    {% endif %}
+    <p class="course-institution">{{ course.institution }}</p>
+    <p>{{ course.description }}</p>
+    <small><a href="{{ course.link | relative_url }}">Course Details &rarr;</a></small>
+  </div>
+</div>
+{% endunless %}
+{% endfor %}
+
+<br>
+
+<div style="margin-bottom: 1.5rem; margin-top: 1rem;">
+  <img src="{{ site.baseurl }}/images/logos/asu.jpg" alt="Arizona State University" style="height: 60px; display: block;">
+</div>
+
+{% for course in site.data.teaching %}
+{% if course.institution contains "Arizona State" %}
+<div class="course-entry">
+  {% if course.image and course.image.size > 0 %}
+  <div class="course-thumb">
+    <a href="{{ course.link | relative_url }}">
+      <img src="{{ course.image | relative_url }}" alt="{{ course.title }}">
+    </a>
+  </div>
+  {% endif %}
+  <div class="course-info">
+    <h3><a href="{{ course.link | relative_url }}" style="text-decoration:none; color:inherit;">{{ course.title }}</a></h3>
+    {% if course.subtitle %}
+      <p style="margin: 0 0 0.3rem; font-weight: 600;">{{ course.subtitle }}</p>
+    {% endif %}
+    <p class="course-institution">{{ course.institution }}</p>
+    <p>{{ course.description }}</p>
+    <small><a href="{{ course.link | relative_url }}">Course Details &rarr;</a></small>
+  </div>
+</div>
+{% endif %}
+{% endfor %}

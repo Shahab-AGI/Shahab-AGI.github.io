@@ -1,0 +1,87 @@
+---
+layout: page
+title: Publications
+show_title: true
+permalink: /publications/
+---
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+  .btn {
+    background-color: #A0D4A4;
+    color: white;
+    padding: 0px 6px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 0.8rem;
+  }
+  .btn:hover {
+    background-color: #777;
+    text-decoration: none;
+    color: white;
+  }
+  table {
+    width: 100%;
+    border-top: none;
+  }
+  table > tbody > tr > td {
+    padding: 12px 6px;
+    vertical-align: top;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  .pub-figure {
+    width: 160px;
+    text-align: center;
+    vertical-align: middle;
+  }
+  .pub-figure img {
+    max-height: 140px;
+    max-width: 150px;
+    border-radius: 6px;
+    object-fit: cover;
+  }
+  h4 {
+    margin-top: 0;
+    margin-bottom: 0.2rem;
+  }
+</style>
+
+{% for year in site.data.years %}
+{% assign pubs_in_year = site.data.publications | where: "year", year %}
+{% if pubs_in_year.size > 0 %}
+<h2>{{ year }}</h2>
+<table>
+  <tbody>
+    {% for paper in site.data.publications %}
+    {% if paper.year == year %}
+    <tr>
+      <td>
+        <h4>{{ paper.title }}</h4>
+        <small>
+          {{ paper.authors }}<br>
+          <em>{{ paper.venue }}</em><br>
+          {% if paper.note and paper.note.size > 0 %}
+            {{ paper.note }}<br>
+          {% endif %}
+          {% if paper.pdf and paper.pdf.size > 0 %}
+            <a href="{{ paper.pdf }}" target="_blank" style="text-decoration:none;">
+              <button class="btn"><i class="fa fa-file-pdf-o"></i> Read Paper</button>
+            </a>
+          {% endif %}
+        </small>
+      </td>
+      <td class="pub-figure">
+        {% if paper.figure and paper.figure.size > 0 %}
+          <img src="{{ paper.figure | relative_url }}" alt="{{ paper.title }}">
+        {% endif %}
+      </td>
+    </tr>
+    {% endif %}
+    {% endfor %}
+  </tbody>
+</table>
+{% endif %}
+{% endfor %}

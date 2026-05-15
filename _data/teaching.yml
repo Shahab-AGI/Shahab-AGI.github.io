@@ -1,0 +1,55 @@
+# Teaching courses data
+
+- title: "Discovery Studio I"
+  subtitle: "Transdisciplinary Fusion Studio I"
+  institution: "Virginia Tech — Calhoun Discovery Program (CDP)"
+  image: "/images/teaching/trans_fusion_1/WC1_F_1.jpg"
+  link: "/teaching/discovery-studio-1/"
+  description: >-
+    This studio course focuses on collaborative problem-setting. Students evaluate technology
+    innovation based on four criteria: feasibility (can it be made?), viability (is it financially
+    sensible?), desirability (do people want it?), and sustainability (can it work long-term?).
+    An introduction to design thinking, systems thinking, and the ethical dimensions of
+    collaborative technology innovation for societal impact.
+
+- title: "Discovery Studio II"
+  subtitle: "Transdisciplinary Fusion Studio II"
+  institution: "Virginia Tech — Calhoun Discovery Program (CDP)"
+  image: "/images/teaching/juni_des/Ju_1_6_Thumb.jpg"
+  link: "/teaching/discovery-studio-2/"
+  description: >-
+    An introduction to transdisciplinary, collaborative problem-solving with a systems thinking
+    approach to address real-world problems in technology innovation, provided by clients from
+    business, government, and nonprofit organizations. The integrative theme is "collaborative
+    sociotechnical innovation" using Industry 4.0 enabling technologies.
+
+- title: "Design Studio I & II"
+  subtitle: "Junior Design Studio I & II"
+  institution: "Virginia Tech — Calhoun Discovery Program (CDP)"
+  image: "/images/teaching/juni_des/WC1_J_SC_11_Thumb_N.jpeg"
+  link: "/teaching/design-studio/"
+  description: >-
+    Practice and prototyping study of transdisciplinary, collaborative design processes to
+    address real-world problems in sociotechnical innovation. Student teams engage in defining
+    and analyzing problems using Systems Thinking and the Collaborative Sociotechnical Innovation
+    Model (CSIM) Four Set framework, working with clients from industry, business, government,
+    and nonprofit organizations.
+
+- title: "Capstone Studio I & II"
+  subtitle: "Senior Design Studio I & II"
+  institution: "Virginia Tech — Calhoun Discovery Program (CDP)"
+  image: "/images/teaching/thumbs/Tac_thumb.jpg"
+  link: "/teaching/capstone-studio/"
+  description: >-
+    Advanced capstone studio in collaborative sociotechnical innovation. Student teams develop
+    and deploy comprehensive solutions to industry-identified challenges through iterative design,
+    prototyping, and testing methodologies.
+
+- title: "Digital Technology Studio"
+  subtitle: "Introduction to Digital Media (ART 116)"
+  institution: "Arizona State University — School of Art"
+  image: ""
+  link: "/teaching/asu/"
+  description: >-
+    Introduction to Digital Media course at Arizona State University School of Art.
+    Taught Fall 2016 and Spring 2017.

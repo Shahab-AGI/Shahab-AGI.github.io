@@ -1,0 +1,89 @@
+---
+layout: default
+title: Home
+permalink: /
+---
+
+<style>
+  .quad-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+    margin-top: 0;
+  }
+  .quad-panel {
+    position: relative;
+    overflow: hidden;
+    min-height: 300px;
+  }
+  .quad-panel.purple { background-color: #ece9f4; }
+  .quad-panel.green  { background-color: #e2efda; }
+  .quad-panel.orange { background-color: #fce5d5; }
+  .quad-panel.yellow { background-color: #fff3cc; }
+
+  .quad-panel a {
+    display: block;
+  }
+  .quad-panel img {
+    width: 100%;
+    display: block;
+    margin-bottom: 0;
+    box-shadow: 1px 1px 3px -1px #000;
+    filter: grayscale(60%);
+    transition: filter 1000ms ease, transform 1000ms ease;
+  }
+  .quad-panel a:hover img {
+    filter: grayscale(0%);
+    transform: translateY(-5px);
+  }
+  .quad-label {
+    display: block;
+    text-align: center;
+    padding: 1rem 0 1.5rem;
+    font-family: 'TeXGyrePagella', 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    color: #333;
+    text-decoration: none;
+  }
+  .quad-label:hover {
+    color: #333;
+    text-decoration: none;
+  }
+
+  @media (max-width: 640px) {
+    .quad-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+
+<div class="quad-grid">
+  <div class="quad-panel purple">
+    <a href="{{ site.baseurl }}/research/">
+      <img src="{{ site.baseurl }}/images/home/tei_N.jpg" alt="Research">
+    </a>
+    <a class="quad-label" href="{{ site.baseurl }}/research/">Research</a>
+  </div>
+
+  <div class="quad-panel green">
+    <a href="{{ site.baseurl }}/practice/">
+      <img src="{{ site.baseurl }}/images/home/goed.jpg" alt="Practice">
+    </a>
+    <a class="quad-label" href="{{ site.baseurl }}/practice/">Practice</a>
+  </div>
+
+  <div class="quad-panel orange">
+    <a href="{{ site.baseurl }}/teaching/">
+      <img src="{{ site.baseurl }}/images/home/Teaching_J.jpg" alt="Teaching">
+    </a>
+    <a class="quad-label" href="{{ site.baseurl }}/teaching/">Teaching</a>
+  </div>
+
+  <div class="quad-panel yellow">
+    <a href="{{ site.baseurl }}/about/">
+      <img src="{{ site.baseurl }}/images/home/contact2_N.jpg" alt="About">
+    </a>
+    <a class="quad-label" href="{{ site.baseurl }}/about/">About</a>
+  </div>
+</div>

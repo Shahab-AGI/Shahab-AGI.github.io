@@ -1,0 +1,82 @@
+<footer class="center">
+  <div class="measure">
+    <small>
+      &copy; <script>document.write((new Date()).getFullYear());</script> Shahabedin Sagheb
+    </small>
+  </div>
+</footer>
+<!-- Lightbox -->
+<style>
+  #lb-overlay {
+    display: none;
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0,0,0,0.88);
+    z-index: 9999;
+    align-items: center;
+    justify-content: center;
+    cursor: zoom-out;
+  }
+  #lb-overlay.lb-active { display: flex; }
+  #lb-overlay img {
+    max-width: 90vw;
+    max-height: 90vh;
+    object-fit: contain;
+    border-radius: 4px;
+    box-shadow: 0 8px 40px rgba(0,0,0,0.6);
+    cursor: default;
+  }
+  #lb-close {
+    position: fixed;
+    top: 1rem; right: 1.5rem;
+    color: #fff;
+    font-size: 2.5rem;
+    line-height: 1;
+    cursor: pointer;
+    background: none;
+    border: none;
+    padding: 0.2rem 0.5rem;
+    opacity: 0.8;
+  }
+  #lb-close:hover { opacity: 1; }
+  .gallery img { cursor: zoom-in; }
+</style>
+
+<div id="lb-overlay" role="dialog" aria-modal="true" aria-label="Image lightbox">
+  <button id="lb-close" aria-label="Close lightbox">&times;</button>
+  <img id="lb-img" src="" alt="">
+</div>
+
+<script>
+(function () {
+  var overlay = document.getElementById('lb-overlay');
+  var lbImg   = document.getElementById('lb-img');
+  var lbClose = document.getElementById('lb-close');
+
+  function open(src, alt) {
+    lbImg.src = src;
+    lbImg.alt = alt || '';
+    overlay.classList.add('lb-active');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function close() {
+    overlay.classList.remove('lb-active');
+    document.body.style.overflow = '';
+    setTimeout(function () { lbImg.src = ''; }, 300);
+  }
+
+  document.querySelectorAll('.gallery img').forEach(function (img) {
+    img.addEventListener('click', function () { open(this.src, this.alt); });
+  });
+
+  overlay.addEventListener('click', function (e) {
+    if (e.target === overlay) close();
+  });
+  lbClose.addEventListener('click', close);
+  lbImg.addEventListener('click', function (e) { e.stopPropagation(); });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && overlay.classList.contains('lb-active')) close();
+  });
+}());
+</script>

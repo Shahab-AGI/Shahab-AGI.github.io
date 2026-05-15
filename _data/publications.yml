@@ -1,0 +1,192 @@
+# Publications data — ordered by year (most recent first within each year)
+
+# 2025
+- title: "RECON: Reducing Causal Confusion with Human-Placed Markers"
+  authors: "R. Ramirez Sanchez, H. Nemlekar, Shahabedin Sagheb, C. M. Nunez, D. P. Losey"
+  venue: "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)"
+  year: 2025
+  note: ""
+  pdf: ""
+  figure: ""
+
+- title: "Should Collaborative Robots be Transparent?"
+  authors: "Shahabedin Sagheb, S. Gandhi, D. P. Losey"
+  venue: "International Journal of Social Robotics, 17(6), 937–953"
+  year: 2025
+  note: ""
+  pdf: ""
+  figure: ""
+
+- title: "Counterfactual Behavior Cloning: Offline Imitation Learning from Imperfect Human Demonstrations"
+  authors: "Shahabedin Sagheb, D. P. Losey"
+  venue: "arXiv preprint arXiv:2505.10760"
+  year: 2025
+  note: ""
+  pdf: "https://arxiv.org/abs/2505.10760"
+  figure: ""
+
+- title: "CIVIL: Causal and Intuitive Visual Imitation Learning"
+  authors: "Y. Dai, R. Ramirez Sanchez, R. Jeronimus, Shahabedin Sagheb, C. M. Nunez, H. Nemlekar, et al."
+  venue: "arXiv preprint arXiv:2504.17959"
+  year: 2025
+  note: ""
+  pdf: "https://arxiv.org/abs/2504.17959"
+  figure: ""
+
+- title: "A Unified Framework for Robots that Influence Humans over Long-Term Interaction"
+  authors: "Shahabedin Sagheb, S. Parekh, R. Pandya, Y. J. Mun, K. Driggs-Campbell, A. Bajcsy, et al."
+  venue: "arXiv preprint arXiv:2503.14633"
+  year: 2025
+  note: ""
+  pdf: "https://arxiv.org/abs/2503.14633"
+  figure: ""
+
+# 2024
+- title: "Aligning Learning with Communication in Shared Autonomy"
+  authors: "J. Hoegerman, Shahabedin Sagheb, B. A. Christie, D. P. Losey"
+  venue: "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)"
+  year: 2024
+  note: ""
+  pdf: ""
+  figure: ""
+
+# 2023
+- title: "Towards Robots that Influence Humans over Long-Term Interaction"
+  authors: "Shahabedin Sagheb, Y. J. Mun, N. Ahmadian, B. A. Christie, A. Bajcsy, K. Driggs-Campbell, D. P. Losey"
+  venue: "IEEE International Conference on Robotics and Automation (ICRA)"
+  year: 2023
+  note: ""
+  pdf: ""
+  figure: "/images/publications/influence1/Influence.gif"
+
+- title: "Geppetteau: Enabling Haptic Perceptions of Virtual Fluids in Various Vessel Profiles Using a String-Driven Haptic Interface"
+  authors: "Shahabedin Sagheb, F. W. Liu, A. Vuong, S. Dai, R. Wirjadi, Y. Bao, R. LiKamWa"
+  venue: "Proceedings of the 17th International Conference on Tangible, Embedded and Embodied Interaction (TEI)"
+  year: 2023
+  note: ""
+  pdf: ""
+  figure: "/images/publications/geppetteau/Gep_thumb.jpg"
+
+- title: "Safe Planning with Game-Theoretic Formulation, Reachability Analysis and Reinforcement Learning"
+  authors: "X. Shang, Shahabedin Sagheb, A. Eskandarian"
+  venue: "IEEE International Automated Vehicle Validation Conference (IAVVC), pp. 1–8"
+  year: 2023
+  note: ""
+  pdf: ""
+  figure: ""
+
+- title: "Studio-Centred Coursework as a Model for Hybridized Design Education"
+  authors: "Shahabedin Sagheb, K. Walkup, R. Smith"
+  venue: "Journal of Design, Business & Society, 9(1), 103–125"
+  year: 2023
+  note: ""
+  pdf: ""
+  figure: ""
+
+- title: "Discovery Thinking: A Complex Problem-Solving Technique"
+  authors: "R. Smith, Shahabedin Sagheb"
+  venue: "Proceedings of the 27th World Multi-Conference on Systemics, Cybernetics and Informatics (WMSCI)"
+  year: 2023
+  note: ""
+  pdf: ""
+  figure: ""
+
+# 2022
+- title: "Virginia Tech and Boeing University-Industry Collaboration; Use of a 4-Tier Sociotechnical Approach to Reduce Ergonomics Related Hazards"
+  authors: "Shahabedin Sagheb, G. Garrett, R. Smith"
+  venue: "Institute of Industrial and Systems Engineers Annual Conference & Expo (IISE)"
+  year: 2022
+  note: ""
+  pdf: ""
+  figure: ""
+
+- title: "Project-based Development as a Model for Transdisciplinary Research and Education"
+  authors: "Shahabedin Sagheb, K. Walkup, R. Smith"
+  venue: "Journal of Systemics, Cybernetics and Informatics, 20(5): 17–32"
+  year: 2022
+  note: ""
+  pdf: ""
+  figure: ""
+
+- title: "Project-based Learning Using the Collaborative Sociotechnical Innovation Model"
+  authors: "Shahabedin Sagheb, A. Arnold, R. Smith"
+  venue: "14th Annual Conference on Higher Education Pedagogy"
+  year: 2022
+  note: ""
+  pdf: ""
+  figure: ""
+
+- title: "Coalitional Curricular Design: Industry-Academic Co-creation of Technical Communication Modules"
+  authors: "K. Walkup, Shahabedin Sagheb, R. Smith"
+  venue: "ACM International Conference on Design of Communication (SIGDOC), pp. 140–142"
+  year: 2022
+  note: ""
+  pdf: ""
+  figure: ""
+
+- title: "Connectivity, Expectations, and Expertise: Co-creation as a Model for Program Development"
+  authors: "K. Walkup, Shahabedin Sagheb, R. A. Smith"
+  venue: "Programmatic Perspectives, 13(2), 104–129"
+  year: 2022
+  note: ""
+  pdf: ""
+  figure: ""
+
+- title: "Demonstration of Geppetteau: Enabling Haptic Perceptions of Virtual Fluids in Various Vessel Profiles Using a String-Driven Haptic Interface"
+  authors: "Shahabedin Sagheb, F. W. Liu, A. Vuong, S. Dai, R. Wirjadi, Y. Bao, R. LiKamWa"
+  venue: "Adjunct Proceedings of the 35th Annual ACM Symposium on User Interface Software and Technology (UIST)"
+  year: 2022
+  note: ""
+  pdf: ""
+  figure: ""
+
+- title: "Method and Apparatus for Simulated Hydrodynamics in Mixed-Reality Fluid Vessels"
+  authors: "R. LiKamWa, Shahabedin Sagheb, A. Bahremand, B. Lahey, F. W. Liu, A. Kidane"
+  venue: "US Patent 11,462,128"
+  year: 2022
+  note: ""
+  pdf: ""
+  figure: ""
+
+# 2021
+- title: "Toward an Integrative Professional and Personal Competency-Based Learning Model for Inclusive Workforce Development"
+  authors: "A. J. Arnold, J. Keyel, A. Soysal, M. Kretser, Shahabedin Sagheb, T. Rikakis"
+  venue: "Journal on Systemics, Cybernetics and Informatics (JSCI), pp. 22–29"
+  year: 2021
+  note: ""
+  pdf: ""
+  figure: ""
+
+- title: "A Modeling Methodology Towards Digital Twin Development in Smart Factories for the Industry 4.0 Human Augmentation Experiments"
+  authors: "M. Ensafi, K. Afsari, S. M. Mehta, N. Shadab, A. Salado, Shahabedin Sagheb, M. Kretser"
+  venue: "CIB W78, Vol. 2021, pp. 11–15"
+  year: 2021
+  note: ""
+  pdf: ""
+  figure: ""
+
+# 2020
+- title: "Adaptive Life-Long Learning for an Inclusive Knowledge Economy"
+  authors: "Shahabedin Sagheb, et al."
+  venue: ""
+  year: 2020
+  note: ""
+  pdf: ""
+  figure: ""
+
+# 2019
+- title: "SWISH: A Shifting-Weight Interface of Simulated Hydrodynamics for Haptic Perception of Virtual Fluid Vessels"
+  authors: "Shahabedin Sagheb, F. W. Liu, A. Bahremand, A. Kidane, R. LiKamWa"
+  venue: "Proceedings of the 32nd Annual ACM Symposium on User Interface Software and Technology (UIST)"
+  year: 2019
+  note: ""
+  pdf: "https://dl.acm.org/doi/10.1145/3332165.3347870"
+  figure: "/images/publications/swish2/swish20.gif"
+
+- title: "SWISH: Shifting Weight-based Interfaces for Simulated Hydrodynamics in Mixed-Reality Fluid Vessels"
+  authors: "Shahabedin Sagheb, A. Bahremand, R. LiKamWa, B. Lahey"
+  venue: "Proceedings of the 13th International Conference on Tangible, Embedded, and Embodied Interaction (TEI)"
+  year: 2019
+  note: ""
+  pdf: "https://dl.acm.org/doi/10.1145/3294109.3300988"
+  figure: "/images/publications/swish1/SWISH.gif"

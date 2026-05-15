@@ -1,0 +1,79 @@
+---
+layout: page
+title: Practice
+show_title: true
+permalink: /practice/
+---
+
+<style>
+  .practice-entry {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-bottom: 2.5rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  .practice-entry:last-child {
+    border-bottom: none;
+  }
+  .practice-thumb {
+    flex: 0 0 auto;
+  }
+  .practice-thumb img {
+    width: 300px;
+    border-radius: 6px;
+    object-fit: cover;
+  }
+  .practice-info {
+    flex: 1;
+    min-width: 200px;
+  }
+  .practice-info h3 {
+    margin-top: 0;
+    margin-bottom: 0.2rem;
+  }
+  .practice-meta {
+    color: #777;
+    font-style: italic;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+  }
+  .practice-thumb img {
+    transition: transform 600ms ease;
+    box-shadow: 1px 0 9px -1px #c5c5c5;
+  }
+  .practice-thumb img:hover {
+    transform: translateY(-5px);
+  }
+</style>
+
+<p>
+  My artistic practice explores the themes of anonymity, agency, complex systems, playfulness,
+  and curiosity. My work has been exhibited in national venues including Currents New Media.
+</p>
+
+<br>
+
+{% for project in site.data.practice %}
+<div class="practice-entry">
+  {% if project.image and project.image.size > 0 %}
+  <div class="practice-thumb">
+    <a href="{{ project.link | relative_url }}">
+      <img src="{{ project.image | relative_url }}" alt="{{ project.title }}">
+    </a>
+  </div>
+  {% endif %}
+  <div class="practice-info">
+    <h3><a href="{{ project.link | relative_url }}" style="text-decoration:none; color:inherit;">{{ project.title }}</a></h3>
+    <p class="practice-meta">{{ project.type }}, {{ project.year }}</p>
+    {% if project.venues and project.venues.size > 0 %}
+      <p class="practice-meta" style="font-style: normal;">
+        <strong>Exhibited at:</strong> {{ project.venues }}
+      </p>
+    {% endif %}
+    <p>{{ project.description }}</p>
+    <small><a href="{{ project.link | relative_url }}">View Project &rarr;</a></small>
+  </div>
+</div>
+{% endfor %}

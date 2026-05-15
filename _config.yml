@@ -1,0 +1,46 @@
+# Site settings
+title: Shahab Sagheb
+email: shahab@sagheb.net
+author: Shahabedin (Shahab) Sagheb
+description: >-
+  Shahabedin (Shahab) Sagheb is an Assistant Collegiate Professor at Virginia Tech,
+  appointed in the Honors College in the Calhoun Discovery Program (CDP) and the
+  School of Architecture + Design. His research focuses on augmenting objects and
+  humans in Virtual Reality, Augmented Reality, and Mixed Reality experiences, as
+  well as human-robot collaboration and haptics.
+baseurl: ""
+url: "https://shahab.github.io"   # TODO: replace with GitHub Pages URL
+
+# Navigation pages (order matters)
+header_pages:
+  - research.html
+  - practice.html
+  - teaching.html
+  - about.html
+
+# Social
+show_social_icons: false
+linkedin_username: shahabedin-sagheb
+google_scholar: SYr2-NIAAAAJ
+
+# Date format
+date_format: "%b %-d, %Y"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+plugins:
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - NEXT_STEPS.md
+  - node_modules
+  - vendor
+
+# Pixyll theme settings
+animated: false
+show_sharing_icons: false
+enable_anchorjs: false
