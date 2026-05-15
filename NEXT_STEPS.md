@@ -1,6 +1,6 @@
 # Next Steps: Local Development & GitHub Pages Deployment
 
-This document guides you through testing your redesigned website locally and deploying it
+This document guides through testing the redesigned website locally and deploying it
 to GitHub Pages. The site is located at:
 
 ```
