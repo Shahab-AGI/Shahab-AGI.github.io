@@ -1,5 +1,30 @@
 # Publications data — ordered by year (most recent first within each year)
 
+# 2026
+- title: "Belief-Aware Influence and Trust (BAIT): Shaping Human Belief During Repeated Human-Robot Interaction"
+  authors: "Y. J. Mun, M. Golchoubian, Shahabedin Sagheb, Y. Bai, T. Ji, D. P. Losey, et al."
+  venue: "arXiv preprint arXiv:2607.25327"
+  year: 2026
+  note: ""
+  pdf: "https://arxiv.org/abs/2607.25327"
+  figure: ""
+
+- title: "Learning to Collaborate: Toward Robust, Adaptive Policies for Human–Robot Teams"
+  authors: "Shahabedin Sagheb"
+  venue: "Virginia Tech (PhD Dissertation)"
+  year: 2026
+  note: ""
+  pdf: ""
+  figure: ""
+
+- title: "CIVIL: Causal and Intuitive Visual Imitation Learning"
+  authors: "Y. Dai, R. Ramirez Sanchez, R. Jeronimus, Shahabedin Sagheb, C. M. Nunez, H. Nemlekar, et al."
+  venue: "Autonomous Robots, 50(4), 41"
+  year: 2026
+  note: ""
+  pdf: "https://arxiv.org/abs/2504.17959"
+  figure: ""
+
 # 2025
 - title: "RECON: Reducing Causal Confusion with Human-Placed Markers"
   authors: "R. Ramirez Sanchez, H. Nemlekar, Shahabedin Sagheb, C. M. Nunez, D. P. Losey"
@@ -19,18 +44,10 @@
 
 - title: "Counterfactual Behavior Cloning: Offline Imitation Learning from Imperfect Human Demonstrations"
   authors: "Shahabedin Sagheb, D. P. Losey"
-  venue: "arXiv preprint arXiv:2505.10760"
+  venue: "ACM Transactions on Human-Robot Interaction"
   year: 2025
   note: ""
   pdf: "https://arxiv.org/abs/2505.10760"
-  figure: ""
-
-- title: "CIVIL: Causal and Intuitive Visual Imitation Learning"
-  authors: "Y. Dai, R. Ramirez Sanchez, R. Jeronimus, Shahabedin Sagheb, C. M. Nunez, H. Nemlekar, et al."
-  venue: "arXiv preprint arXiv:2504.17959"
-  year: 2025
-  note: ""
-  pdf: "https://arxiv.org/abs/2504.17959"
   figure: ""
 
 - title: "A Unified Framework for Robots that Influence Humans over Long-Term Interaction"
