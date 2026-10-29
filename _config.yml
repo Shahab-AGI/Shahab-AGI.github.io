@@ -3,13 +3,14 @@ title: Shahab Sagheb
 email: shahab@sagheb.net
 author: Shahabedin (Shahab) Sagheb
 description: >-
-  Shahabedin (Shahab) Sagheb is an Assistant Collegiate Professor at Virginia Tech,
-  appointed in the Honors College in the Calhoun Discovery Program (CDP) and the
-  School of Architecture + Design. His research focuses on augmenting objects and
-  humans in Virtual Reality, Augmented Reality, and Mixed Reality experiences, as
-  well as human-robot collaboration and haptics.
+  Shahabedin (Shahab) Sagheb is an interdisciplinary researcher and engineer 
+  whose work sits at the intersection of AI, machine learning, robotics, optimization, control, 
+  and human-centered system design.
+  Shahab's PhD work in Mechanical Engineering at Virginia Tech focused on human-robot collaboration
+  and adaptive policies for human-robot teams. His publication record includes contributions 
+  to top conferences and journals in robotics, AI, and human-robot interaction.
 baseurl: ""
-url: "https://sagheb.net"   # TODO: replace with GitHub Pages URL
+url: "https://sagheb.net"   
 
 # Navigation pages (order matters)
 header_pages:
